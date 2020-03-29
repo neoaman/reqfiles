@@ -1,0 +1,136 @@
+
+body {
+	background: #031321;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background: #031321;
+}
+
+.navbar li{
+	color: #2196f3;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0px 20px;
+	margin: 10px;
+	font-size: 20px;
+	
+	
+}
+.navbar li:hover{
+	background:#2196f3;
+	color: black;
+	border-radius: 20px;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+
+.logo {
+	position: fixed;
+	top:0%;
+	border-radius: 50%;
+	padding: 6px;
+	
+	
+}
+
+.navbar img {
+	position: relative;
+	left: 100px;
+}
+
+.kform {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row;
+	margin: auto;
+	width: 90%;
+}
+
+.left {
+	position: relative;
+	left: 0%;
+}
+
+.right {
+	position: relative;
+	right: 0px;
+	left:0%;
+}
+
+.middle {
+	position: relative;
+	left: 5%;
+}
+
+.inp {
+	margin: 8px 0px;	
+}
+
+.inp input {
+	position: sticky;
+	left: 100%;
+	border-radius: 8px;
+	padding: 3px 6px;
+	width: 9pc;
+}
+
+label {
+text-transform: uppercase;
+color: aqua;
+}
+
+select {
+		position: sticky;
+	left:100%;
+	border-radius: 8px;
+	padding: 3px 6px;
+	width: 10pc;
+}
+
+.btn {
+	display: block;
+	margin: 20px auto;
+	padding: 6px 10px;
+	background: cyan;
+	border-radius: 10px;
+	
+	
+}
+
+.opt {
+	margin: 8px 0px;
+}
+
+.glow {
+	background: none;
+	color: aqua;
+	border: none;
+	font-size: 16px;
+}
+
+.glow:hover{
+	background: aqua;
+	color: #031321;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	transition: 0.5s;
+
+}
+a{
+	text-decoration: none;
+	text-transform: none;
+}
+.result{
+	text-align: center;
+	background-color: #2196f3;
+	display: block;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	border-radius: 20px;
+		
+}
