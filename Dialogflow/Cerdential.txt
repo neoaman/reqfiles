@@ -1,0 +1,30 @@
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+chat-icon="https://raw.githubusercontent.com/neoaman/reqfiles/master/logo/DB_320x320.png"
+  intent="WELCOME"
+  chat-title="Diabeat"
+  agent-id="077fda22-1d31-4b5d-bc17-665261628a6a"
+  language-code="en"
+></df-messenger>
+
+
+df-messenger {
+      --df-messenger-button-titlebar-color:linear-gradient(lightblue,white,#E6B0AA);
+      --df-messenger-button-titlebar-font-color: rgb(15, 65, 109);
+--df-messenger-bot-message: #365975;
+    --df-messenger-chat-background-color: white;
+      --df-messenger-user-message: #00a3c8;
+      --df-messenger-font-color: white;
+
+      --df-messenger-input-placeholder-font-color: rgb(15, 65, 109);
+      --df-messenger-input-box-color: #D5D8DC;
+      --df-messenger-input-font-color: rgb(15, 65, 109);
+      --df-messenger-send-icon: red;
+
+      --df-messenger-chip-border-color: rgb(15, 65, 109);
+     --df-messenger-chip-color: #487ce4; 
+
+      --df-messenger-minimized-chat-close-icon-color: #D1F2EB;
+
+    }
