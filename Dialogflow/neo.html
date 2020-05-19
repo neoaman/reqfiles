@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            justify-content: center;
+            /* border: 2px solid red; */
+            flex-direction: column;
+        }
+
+        .element {
+            display: flex;
+            width: 30pc;
+            justify-content: space-between;
+            /* width: 500px; */
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        .singleobj {
+            display: flex;
+            width: 30pc;
+            justify-content: center;
+            /* width: 500px; */
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        .element:hover {
+            background-color: burlywood;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .singleobj button {
+            background-color: cornflowerblue;
+            padding: 6px 15px;
+            border-radius: 10px;
+        }
+
+        .element input {
+            border-radius: 20px;
+            text-align: center;
+            padding: 6px 15px;
+
+        }
+
+        .element label {
+            color: blue;
+            font-size: 18px;
+        }
+
+        .neo {
+            width: 500px;
+            height: 200px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Test your own chatbot here</h1>
+
+        <form action="/test" method="POST">
+            <div class="singleobj">
+                <img src="https://kushala.co.in/img/logo.png" alt="Kushala, Joy of wellness" height="100px">
+            </div>
+            <!-- <div class="singleobj">
+                <input  type="text" placeholder="Chatbot color" name="chatbotextension">
+            </div>
+            <div class="singleobj">
+                <input  type="text" placeholder="Chatbot logo" name="chatbotextension">
+            </div> -->
+            <div class="singleobj">
+                <textarea class="neo" type="text" placeholder="Paste Chatbot Credential here, provided by dialogflow"
+                    name="chatbotextension"></textarea>
+            </div>
+            <div class="singleobj">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script src="https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/dfbootstrap.js"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Diabeat"
+  agent-id="077fda22-1d31-4b5d-bc17-665261628a6a"
+  language-code="en"
+></df-messenger>
+
+</html>

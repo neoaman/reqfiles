@@ -2,11 +2,11 @@
   'use strict';
 
   var CUSTOM_ELEMENTS_ADAPTER_URL =
-      'https://static.dialogflow.com/common/messenger/webcomponentsjs/2.1.3/custom-elements-es5-adapter.js';
+      'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/custom-elements-es5-adapter.js';
   var WEBCOMPONENTS_LOADER_URL =
-      'https://static.dialogflow.com/common/messenger/webcomponentsjs/2.1.3/webcomponents-loader.js';
+      'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/webcomponents-loader.js';
   var MESSENGER_URL =
-      'https://www.gstatic.com/dialogflow-console/fast/messenger/messenger-internal.min.js?v=4';
+      'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/messenger-internal.min.js';
 
   var loadDfMessenger = function () {
     var elementScript = document.createElement('script');
