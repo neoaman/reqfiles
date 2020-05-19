@@ -6,7 +6,7 @@
   var WEBCOMPONENTS_LOADER_URL =
       'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/webcomponents-loader.js';
   var MESSENGER_URL =
-      'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/messenger-internal.min.js';
+      'https://rawcdn.githack.com/neoaman/reqfiles/4db5633e53053cd016844852267a72b0d3e856bd/Dialogflow/messenger-internal.min.js';
 
   var loadDfMessenger = function () {
     var elementScript = document.createElement('script');
