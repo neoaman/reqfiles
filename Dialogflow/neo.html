@@ -69,25 +69,23 @@
         }
 
         df-messenger {
-            --df-messenger-button-titlebar-color: linear-gradient(lightblue, white, #E6B0AA);
-            --df-messenger-button-titlebar-font-color: rgb(15, 65, 109);
-            --df-messenger-bot-message: #365975;
-            --df-messenger-chat-background-color: white;
-            --df-messenger-user-message: #00a3c8;
-            --df-messenger-font-color: white;
+      --df-messenger-button-titlebar-color:url("https://raw.githubusercontent.com/neoaman/reqfiles/c8df3e0ef82a41788891b6241c5aba19541339d1/svg/small/Snow-Animation-Background.svg");
+      --df-messenger-button-titlebar-font-color: rgb(15, 65, 109);
+--df-messenger-bot-message: #365975;
+    --df-messenger-chat-background-color: white;
+      --df-messenger-user-message: #00a3c8;
+      --df-messenger-font-color: white;
 
-            --df-messenger-input-placeholder-font-color: rgb(15, 65, 109);
-            --df-messenger-input-box-color: #D5D8DC;
-            --df-messenger-input-font-color: rgb(15, 65, 109);
-            --df-messenger-send-icon: red;
+      --df-messenger-input-placeholder-font-color: rgb(15, 65, 109);
+      --df-messenger-input-box-color: #D5D8DC;
+      --df-messenger-input-font-color: rgb(15, 65, 109);
+      --df-messenger-send-icon: red;
 
-            --df-messenger-chip-border-color: rgb(15, 65, 109);
-            --df-messenger-chip-color: #fafafa;
+      --df-messenger-chip-border-color: rgb(15, 65, 109);
+     --df-messenger-chip-color: #fafafa; 
 
-            --df-messenger-minimized-chat-close-icon-color: #D1F2EB;
-
-        }
-
+      --df-messenger-minimized-chat-close-icon-color: #D1F2EB;
+    };
         ;
     </style>
 </head>
@@ -114,13 +112,18 @@
                 <button type="submit">Submit</button>
             </div>
         </form>
+        <!-- <script src="dfbootstrap.js"></script> -->
     </div>
-
-    <meta name="viewport" content="width-device-width, initial-scale=" 1">
+    <!-- <script src="https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/dfbootstrap.js"></script> -->
     <script src="dfbootstrap.js"></script>
-    <df-messenger chat-icon="https://raw.githubusercontent.com/neoaman/reqfiles/master/logo/Logo_600x195.png"
-        intent="WELCOME" chat-title="DiaBeat" agent-id="077fda22-1d31-4b5d-bc17-665261628a6a" language-code="en"
-        wait-open></df-messenger>
+    <df-messenger
+    chat-icon="https://raw.githubusercontent.com/neoaman/reqfiles/master/img/DiaBeatBot.png"
+      intent="WELCOME"
+      chat-title="DiaBeat"
+      agent-id="077fda22-1d31-4b5d-bc17-665261628a6a"
+      language-code="en"
+    wait-open
+    ></df-messenger>
 </body>
 
 </html>
