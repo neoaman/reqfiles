@@ -9,10 +9,10 @@
   //     'webcomponents-loader.js';
   var WEBCOMPONENTS_LOADER_URL =
       'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/webcomponents-loader.js';
-  // var MESSENGER_URL =
-  //     'messenger-internal.min.js';
   var MESSENGER_URL =
-      'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/messenger-internal.min.js';
+      'messenger-internal.min.js';
+  // var MESSENGER_URL =
+  //     'https://raw.githack.com/neoaman/reqfiles/master/Dialogflow/messenger-internal.min.js';
 
   var loadDfMessenger = function () {
     var elementScript = document.createElement('script');
